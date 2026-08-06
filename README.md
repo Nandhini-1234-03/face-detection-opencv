@@ -18,7 +18,6 @@ This project was developed as part of my learning journey in **Computer Vision**
 - Supports built-in laptop camera and external webcams
 - Draws a green bounding box around detected faces
 - Displays live face detection status
-- Lightweight and easy to run
 - Press **ESC** to exit the application
 
 ---
@@ -112,7 +111,6 @@ Through this project, I learned:
 
 ## 🔮 Future Improvements
 
-- Detect multiple faces with improved accuracy
 - Face recognition using deep learning
 - Emotion detection
 - Face mask detection
