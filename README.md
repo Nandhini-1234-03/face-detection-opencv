@@ -1,23 +1,29 @@
 # Face Detection using OpenCV
 
-## 📌 Overview
-This project is a real-time face detection application developed using **Python** and **OpenCV**. It uses the **Haar Cascade Classifier** to detect human faces from the built-in laptop camera or webcamera and draws a green bounding box around each detected face. The application also displays the detection status in real time.
+A real-time face detection application built with **Python** and **OpenCV** using the **Haar Cascade Classifier**. The application captures video from a webcam or built-in laptop camera, detects human faces in real time, and draws a green bounding box around each detected face.
 
-This project was created as part of my learning journey in **Computer Vision** and **Artificial Intelligence** using Python.
+---
+
+## 📌 Overview
+
+This project demonstrates the fundamentals of **Computer Vision** using Python and OpenCV. It utilizes the pre-trained **Haar Cascade Classifier** to identify human faces from a live video stream and provides real-time visual feedback by highlighting detected faces.
+
+This project was developed as part of my learning journey in **Computer Vision**, **Artificial Intelligence**, and **Python**.
 
 ---
 
 ## 🚀 Features
 
 - Real-time face detection
-- Built-in laptop camera or webcam support
-- Green bounding box around detected faces
-- Live detection status display
+- Supports built-in laptop camera and external webcams
+- Draws a green bounding box around detected faces
+- Displays live face detection status
+- Lightweight and easy to run
 - Press **ESC** to exit the application
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - OpenCV
@@ -27,18 +33,19 @@ This project was created as part of my learning journey in **Computer Vision** a
 
 ## 📂 Project Structure
 
-```
+```text
 face-detection-opencv/
 │── face_detection.py
 │── haarcascade_frontalface_default.xml
-└── README.md
+│── README.md
+└── .gitignore
 ```
 
 ---
 
 ## 📦 Requirements
 
-Install OpenCV:
+Install the required package:
 
 ```bash
 pip install opencv-python
@@ -48,37 +55,45 @@ pip install opencv-python
 
 ## ▶️ How to Run
 
-1. Clone the repository.
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/face-detection-opencv.git
+git clone https://github.com/Nandhini-1234-03/face-detection-opencv.git
 ```
 
-2. Open the project folder.
+### 2. Navigate to the project directory
 
-3. Install the required package.
+```bash
+cd face-detection-opencv
+```
+
+### 3. Install the required package
 
 ```bash
 pip install opencv-python
 ```
 
-4. Run the program.
+### 4. Run the application
 
 ```bash
 python face_detection.py
 ```
 
-5. The application will open the built-in laptop camera and begin detecting faces.
+The application will open your webcam and begin detecting faces in real time.
 
-6. Press **ESC** to close the application.
+Press **ESC** to close the application.
 
 ---
 
 ## 📸 Output
 
-- Detects human faces in real time.
-- Draws a green rectangle around detected faces.
-- Displays **"Face detected"** whenever a face is detected.
+The application will:
+
+- Detect human faces in real time
+- Draw a green rectangle around each detected face
+- Display **"Face Detected"** whenever a face is identified
+
+
 
 ---
 
@@ -88,9 +103,21 @@ Through this project, I learned:
 
 - Face detection using the Haar Cascade algorithm
 - Real-time image processing with OpenCV
-- Working with a laptop camera in Python
+- Accessing a webcam using Python
 - Drawing bounding boxes on detected objects
-- Basic computer vision concepts
+- Fundamentals of Computer Vision
+- Working with OpenCV libraries
+
+---
+
+## 🔮 Future Improvements
+
+- Detect multiple faces with improved accuracy
+- Face recognition using deep learning
+- Emotion detection
+- Face mask detection
+- Capture and save detected faces
+- Attendance system integration
 
 ---
 
@@ -102,6 +129,9 @@ This project was developed for educational purposes while learning **Python**, *
 
 ## 👩‍💻 Author
 
-**Nandhini**
+**Nandhini V**
 
-Biomedical Engineering Student | AI & Python Enthusiast
+Biomedical Engineering Student  
+AI Enthusiast • Python • Computer Vision 
+
+GitHub: https://github.com/Nandhini-1234-03
